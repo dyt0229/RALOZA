@@ -17,5 +17,9 @@
 //         t= !t;                                
 //     }
 // }
+let opc = document.getElementsByClassName("lis");
 
+function nav(){
+    
+}
 

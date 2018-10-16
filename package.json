@@ -1,0 +1,22 @@
+{
+  "name": "raloza",
+  "version": "1.0.0",
+  "description": "这是我的第一个项目，哈哈哈哈，我也不会",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyt0229/RALOZA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyt0229/RALOZA/issues"
+  },
+  "homepage": "https://github.com/dyt0229/RALOZA#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

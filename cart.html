@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>cart</title>
+<link rel="shortcut icon" type="imgage/x-icon" href="img/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/cart.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/ionicons.min.css">
+</head>
+<body>
+
+<header></header>
+     
+<!-- bannar -->
+<div class="bannar">
+	<div class="banMid">
+		<h1>CART</h1>
+		<P><a href="index.html">HOME</a>|<span>CART</span></P>
+	</div>
+</div>
+<div class="mainBox">
+	<div class="cartProList">
+		<form class="proMenu">
+			<table class="table" cellspacing="0">
+				<thead>
+					<tr>
+						<th class="cartRemove">Remove</th>
+						<th class="cartImg">Images</th>
+						<th class="cartProduct">Product</th>
+						<th class="unitPrice">Unit Price</th>
+						<th class="quantity">Quantity</th>
+						<th class="subTotal">Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="cartRemove"><a href="#"><i class="fa fa-times"></i></a></td>
+						<td class="cartImg"><a href="#"><img src="img/cart/1.jpg"/></a></td>
+						<td class="cartProduct"><a href="#">Compete Track Tote</a></td>
+						<td class="unitPrice"><span class="amount">$70.00</span></td>
+						<td class="quantity"><input value="1" type="number" min="1"></td>
+						<td class="subTotal"><span class="subAmount">$70.00</span></td>
+					</tr>
+					<tr>
+						<td class="cartRemove"><a href="#"><i class="fa fa-times"></i></a></td>
+						<td class="cartImg"><a href="#"><img src="img/cart/2.jpg" /></a></td>
+						<td class="cartProduct"><a href="#">Compete Track Tote</a></td>
+						<td class="unitPrice"><span class="amount">$70.00</span></td>
+						<td class="quantity"><input value="1" type="number" min="1"></td>
+						<td class="subTotal"><span class="subAmount">$70.00</span></td>
+					</tr>
+					<tr>
+						<td class="cartRemove"><a href="#"><i class="fa fa-times"></i></a></td>
+						<td class="cartImg"><a href="#"><img src="img/cart/3.jpg" /></a></td>
+						<td class="cartProduct"><a href="#">Compete Track Tote</a></td>
+						<td class="unitPrice"><span class="amount">$70.00</span></td>
+						<td class="quantity"><input value="1" type="number" min="1"></td>
+						<td class="subTotal"><span class="subAmount">$70.00</span></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="row">
+				<div class="coupon">
+					<input class="input-text" type="text" placeholder="coupon code" name="coupon_code"/>
+					<input class="btn Cou" type="submit" value="APPLY COUPON" name="apply_coupon"/>
+				</div>
+				<div class="update">
+					<input class="btn Up" type="submit" value="UPDATE CART" name="update_cart"/>
+				</div>
+			</div>
+			<div class="totalBox">
+				<div class="cartTotal">
+					<h2>Cart Totals</h2>
+					<ul>
+						<li>Subtotal<span>$170.00</span></li>
+						<li>Total<span>$170.00</span></li>
+					</ul>
+					<a href="#">Proceed To Checkout</a>
+				</div>
+			</div>
+		</form>
+		
+	</div>
+	
+</div>
+
+
+
+
+<div class="end"></div>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+	$("header").load("header.html");
+	$(".end").load("footer.html");
+</script>
+</body>
+</html>
+
+
+

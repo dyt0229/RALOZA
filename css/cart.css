@@ -1,0 +1,198 @@
+@charset "utf-8";
+body,p,ul,em,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea,img,table{
+   margin:0;
+   padding: 0;
+}
+body{
+	width: 100%;
+	font-family: "微软雅黑"，Arial;
+}
+a{
+	text-decoration:none;
+}
+ul,li{
+	list-style:none;
+}
+
+/* bannar */
+.bannar{
+    height: 268px;
+    background-image: url("../img/benner/bg-category.jpg");
+}
+.banMid{
+    width:1110px;
+    margin:0 auto;
+    padding-top: 59px;
+}
+.banMid h1{
+    font-size: 38px;
+    color:white;
+    height: 83px;
+    line-height: 83px;
+}
+.banMid p{
+    font-size: 22px;
+    height: 66px;
+    line-height: 66px;
+    color:white;
+    font-weight: 600;
+}
+.banMid a{
+    color: white;
+    font-size: 14px;
+    margin-right: 32px;
+}
+.banMid a:hover{
+    color: #fe5f38;
+}
+.banMid span{
+    color: #fe5f38;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 32px;
+}
+
+/* mainBox */
+.mainBox{
+    width: 1110px;
+    margin:0 auto;
+    padding:80px 0;
+    overflow: hidden;
+}
+
+/* table */
+.table{
+    border-top:1px solid #ebebeb;
+    border-left:1px solid #ebebeb;
+    text-align: center;
+    width:100%;
+    empty-cells: hide;
+    font-size: 14px;
+}
+thead{
+    background-color: #f7f7f7; 
+
+}
+thead tr{
+    height: 61px;
+}
+thead th{
+    border-right:1px solid #ebebeb;
+    border-bottom:1px solid #ebebeb;
+    font-weight: 100;
+}
+tbody td{
+    border-right:1px solid #ebebeb;
+    border-bottom:1px solid #ebebeb;
+}
+tbody tr{
+    height: 128px;
+}
+.cartRemove{
+    width: 149px;
+}
+.cartImg{
+    width:181px;
+}
+.cartProduct{
+    width:305px;
+}
+.unitPrice{
+    width:173px;
+}
+.quantity{
+    width:159px;
+}
+.subTotal{
+    width:136px;
+}
+
+.proMenu .fa-times{
+    font-size: 20px;
+    color:#2f2928;
+    transition: all 300ms;
+}
+.fa-times:hover{
+    color: #fe5f38;
+}
+.cartProduct a{
+    color:#2f2928;
+}
+.cartProduct a:hover{
+    color:#fe5f38;
+}
+.quantity input{
+    width:48px;
+    height: 27px;
+    text-indent: 10px;
+    box-sizing: border-box;
+}
+
+/* row */
+.row{
+    margin-top: 60px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.coupon{
+    float: left;
+}
+.coupon input{
+    border:1px solid #dbdddc;
+}
+.coupon .input-text{
+    width:118px;
+    height: 40px;
+    outline: none;
+    text-indent: 10px;
+    margin-right: 12px;
+}
+.btn{
+    height: 40px;
+    padding:0 25px;
+    background-color:#323232;
+    color:white;
+    border:none;
+    transition: all 300ms;
+}
+.btn:hover{
+    background-color: #fe5f38;
+}
+.update{
+    float: right;
+}
+/* totalBox */
+.cartTotal{
+    float: right;
+    padding-top: 60px;
+}
+.cartTotal h2{
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 24px;
+}
+.cartTotal ul{
+    border:1px solid #dbdddc;
+    border-bottom: none;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.cartTotal li{
+    width:443px;
+    padding:10px 30px;
+    border-bottom: 1px solid #dbdddc;
+}
+.cartTotal li span{
+    float: right;
+}
+.cartTotal a{
+    display: inline-block;
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color: #323232;
+    color:white;
+    transition: all 300ms;
+}
+.cartTotal a:hover{
+    background-color: #fe5f38;
+}

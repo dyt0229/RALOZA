@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>login</title>
+<link rel="shortcut icon" type="imgage/x-icon" href="img/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/ionicons.min.css">
+</head>
+<body>
+
+<header></header>
+     
+<!-- bannar -->
+<div class="bannar">
+	<div class="banMid">
+		<h1>LOGIN</h1>
+		<P><a href="index.html">HOME</a>|<span>LOGIN</span></P>
+	</div>
+</div>
+<div class="mainBox">
+	<div class="mainList">
+		<h2>Login</h2>
+		<div class="logCont">
+			<form action="#">
+				<p>
+					<label>Username or email<span>*</span></label>
+					<input type="text" name="email" class="textInput">
+				</p>
+				<p>
+					<label>password<span>*</span></label>
+					<input type="password" name="password" class="textInput">
+				</p>
+				<div class="clear"></div>
+				<p>
+					<button value="Login" name="login" class="btn-login" type="submit">Login</button>
+					<label>
+						<input type="checkbox" value="1" class="">
+						<span class="rember">Remenber me</span>
+					</label>
+					<a href="#" class="lost-password">Lost your password?</a>
+				</p>
+			</form>
+		</div>
+	</div>
+	<div class="mainList">
+		<h2>Register</h2>
+		<div class="logCont">
+			<form action="#">
+				<p>
+					<label>Username or email<span>*</span></label>
+					<input type="text" name="email" class="textInput">
+				</p>
+				<p>
+					<label>password<span>*</span></label>
+					<input type="password" name="password" class="textInput">
+				</p>
+				<div class="clear"></div>
+				<p>
+					<button value="Login" name="login" class="btn-login" type="submit">Register</button>
+					
+				</p>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="end"></div>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+	$("header").load("header.html");
+	$(".end").load("footer.html");
+</script>
+</body>
+</html>
+
+
+
