@@ -1,6 +1,6 @@
 var gulp = require("gulp");
 //引入sass插件
-var sass = require("gulp-sass");
+// var sass = require("gulp-sass");
 //引入合并插件
 // var concat = require("gulp-concat");
 // //引入合并、压缩插件
@@ -32,9 +32,9 @@ gulp.task("copy-font",function(){
 	gulp.src("fonts/**/*").pipe(gulp.dest("D:\\phpStudy\\WWW\\RALOZA\\fonts"));
 });
 //复制所有sass文件并转为css文件
-gulp.task("sass",function(){
-	gulp.src("sass/**/*.scss").pipe(sass()).pipe(gulp.dest("D:\\phpStudy\\WWW\\RALOZA\\css"));
-});
+// gulp.task("sass",function(){
+// 	gulp.src("sass/**/*.scss").pipe(sass()).pipe(gulp.dest("D:\\phpStudy\\WWW\\RALOZA\\css"));
+// });
 gulp.task("data",function(){
 	gulp.src(["xml/*.xml","json/*.json","!json/test.json"]).pipe(gulp.dest("D:\\phpStudy\\WWW\\RALOZA\\data"));
 });

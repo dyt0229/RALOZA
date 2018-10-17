@@ -1,3 +1,33 @@
+
+let opc = document.getElementsByClassName("lis");
+
+function nav(){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // $(function (function titleshow() {
 //     $(".country").click(function () {
 //         $(".ulCountry").css({"display":"block"});
@@ -17,9 +47,3 @@
 //         t= !t;                                
 //     }
 // }
-let opc = document.getElementsByClassName("lis");
-
-function nav(){
-    
-}
-
